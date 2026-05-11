@@ -3,7 +3,7 @@ object pepita {
 
   method energia() = energia
 
-  method fly(minutes) {
-    energia = energia - minutes * 3
+  method volar(minutos) {
+    energia = energia - minutos * 3
   }
 }
